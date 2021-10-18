@@ -23,10 +23,3 @@ const undead = new Undead('player5', 'Undead');
 console.log(undead);
 const zombie = new Zombie('player6', 'Zombie');
 console.log(zombie);
-
-zombie.levelUp();
-console.log(zombie);
-
-const points = 10;
-zombie.damage(points);
-console.log(`health: ${zombie.health}`);
